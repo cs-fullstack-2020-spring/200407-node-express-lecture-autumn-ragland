@@ -31,5 +31,5 @@
 
 ### Routes with Parameters
 - Define an array of code school instructors
-- Define a fourth route for a get request with the path `'/instructor:id'`
+- Define a fourth route for a get request with the path `'/instructor/:id'`
 - When you navigate to `localhost:[PORTNUMBER]/instructor/[ID]` display the name of the code school instructor whose index position in the array matches the query param passed in to path
